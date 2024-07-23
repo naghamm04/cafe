@@ -1,0 +1,80 @@
+.parent {
+    background-color: rgba(209, 225, 240, 0.685);
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 12px 20px;
+    margin: 0px 5px;
+    background-color: aliceblue;
+    border-radius: 10px; 
+    transition: background-color 0.5s;
+    border-right: 5px rgb(38, 183, 250);
+
+}
+
+.navbar ul li:last-child {
+    border-right: none;
+}
+
+.navbar ul li:hover { 
+    background-color: rgb(127, 199, 217);
+}
+ 
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    font-size: 15px;
+}
+
+#logo {
+    border: 3px solid rgb(127, 199, 217);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0px;
+    background-color: aliceblue;
+}
+/* https://colorhunt.co/palette/dcf2f17fc7d93654860f1035 */
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home </title>
+    <link rel="stylesheet" href="navbar.css">
+
+</head>
+<body>
+    <nav>
+        <div class="parent"> 
+            <div id="logo">
+                <p id="name"> The Shop </p>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li> <a href="index.html"> Home Page </a> </li>   
+                    <li> <a href="products.html"> Products </a></li>   
+                    <li> <a href="about.html"> About </a> </li>
+                    <li> <a href="contact.html"> Contact Us </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
+*/
